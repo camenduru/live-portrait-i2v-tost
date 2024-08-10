@@ -91,7 +91,7 @@ def generate(input):
     lip_zero=False
     lip_zero_threshold=0.03
     stitching=True
-    relative_motion_mode="relaive"
+    relative_motion_mode="relative"
     driving_smooth_observation_variance=0.000003
     delta_multiplier=1.0
     mismatch_method="constant"
