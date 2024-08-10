@@ -15,7 +15,7 @@ USER camenduru
 
 RUN pip install -q opencv-python imageio imageio-ffmpeg ffmpeg-python av runpod \
     xformers==0.0.25 torchsde==0.2.6 einops==0.8.0 diffusers==0.28.0 transformers==4.41.2 accelerate==0.30.1 pyyaml numpy==1.26.4 onnxruntime-gpu pykalman mediapipe onnx2torch \
-    pillow==10.3.0 scipy color-matcher matplotlib huggingface_hub mss
+    pillow==10.3.0 scipy color-matcher matplotlib huggingface_hub mss kornia insightface==0.7.3
 
 RUN git clone -b liveportrait https://github.com/camenduru/ComfyUI /content/ComfyUI && \
     git clone -b tost https://github.com/camenduru/ComfyUI-LivePortraitKJ /content/ComfyUI/custom_nodes/ComfyUI-LivePortraitKJ && \
