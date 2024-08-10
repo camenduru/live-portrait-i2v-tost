@@ -55,6 +55,7 @@ def generate(input):
     values = input["input"]
 
     frame_load_cap = values['frame_load_cap']
+    frame_rate = values['frame_rate']
     source_image_file = values['source_image_file']
     source_image_file = download_file(source_image_file)
     driving_video_file = values['driving_video_file']
@@ -114,7 +115,7 @@ def generate(input):
 
     full_images = LivePortraitComposite.process(source_image, cropped_image, liveportrait_out)[0]
 
-    frame_rate=source_fps
+    frame_rate=frame_rate
     loop_count=0
     filename_prefix="LivePortrait"
     format="video/h264-mp4"

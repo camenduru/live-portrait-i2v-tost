@@ -18,6 +18,10 @@
         "type": "integer",
         "description": "Frame Load Capacity"
       },
+      "frame_rate": {
+        "type": "integer",
+        "description": "Frame Rate"
+      },
       "source_image_file": {
         "type": "string",
         "description": "Source Image URL",
