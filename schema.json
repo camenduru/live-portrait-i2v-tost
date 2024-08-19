@@ -1,42 +1,43 @@
 {
-    "$schema": "http://json-schema.org/draft-04/hyper-schema#",
-    "type": "object",
-    "properties": {
-      "readme": {
-        "type": "string",
-        "title": "LivePortrait: Efficient Portrait Animation with Stitching and Retargeting Control",
-        "author": "Jianzhu Guo, Dingyun Zhang, Xiaoqiang Liu, Zhizhou Zhong, Yuan Zhang, Pengfei Wan, Di Zhang",
-        "page": "https://liveportrait.github.io/",
-        "code": "https://github.com/KwaiVGI/LivePortrait",
-        "paper": "https://arxiv.org/abs/2407.03168",
-        "tags": [
-          "Image to Talking Video"
-        ],
-        "widget": "readme"
-      },
-      "frame_load_cap": {
-        "type": "integer",
-        "description": "Frame Load Capacity"
-      },
-      "frame_rate": {
-        "type": "integer",
-        "description": "Frame Rate"
-      },
-      "source_image_file": {
-        "type": "string",
-        "description": "Source Image URL",
-        "widget": "textarea"
-      },
-      "driving_video_file": {
-        "type": "string",
-        "description": "Driving Video URL",
-        "widget": "textarea"
-      }
+  "$schema": "http://json-schema.org/draft-04/hyper-schema#",
+  "type": "object",
+  "properties": {
+    "readme": {
+      "type": "string",
+      "title": "LivePortrait: Efficient Portrait Animation with Stitching and Retargeting Control",
+      "author": "Jianzhu Guo, Dingyun Zhang, Xiaoqiang Liu, Zhizhou Zhong, Yuan Zhang, Pengfei Wan, Di Zhang",
+      "page": "https://liveportrait.github.io/",
+      "code": "https://github.com/KwaiVGI/LivePortrait",
+      "paper": "https://arxiv.org/abs/2407.03168",
+      "api": "https://github.com/camenduru/tost-api-examples/blob/main/v1/live-portrait-i2v.ipynb",
+      "tags": [
+        "Image to Talking Video"
+      ],
+      "widget": "readme"
     },
-    "buttons": [
-      {
-        "id": "enter",
-        "label": "🥪 Enter"
-      }
-    ]
-  }
+    "frame_load_cap": {
+      "type": "integer",
+      "description": "Frame Load Capacity"
+    },
+    "frame_rate": {
+      "type": "integer",
+      "description": "Frame Rate"
+    },
+    "source_image_file": {
+      "type": "string",
+      "description": "Source Image URL",
+      "widget": "textarea"
+    },
+    "driving_video_file": {
+      "type": "string",
+      "description": "Driving Video URL",
+      "widget": "textarea"
+    }
+  },
+  "buttons": [
+    {
+      "id": "enter",
+      "label": "🥪 Enter"
+    }
+  ]
+}
