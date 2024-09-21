@@ -32,6 +32,14 @@
       "type": "string",
       "description": "Driving Video URL",
       "widget": "textarea"
+    },
+    "example": {
+      "type": "string",
+      "image1": "https://files.catbox.moe/f1cpjc.png",
+      "image2": "https://files.catbox.moe/rv9q0s.gif",
+      "image3": "https://fakeimg.pl/344x512/282828/eae0d0/?text=<in%20out>#.png",
+      "image4": "https://files.catbox.moe/5kd19b.gif",
+      "widget": "example"
     }
   },
   "buttons": [
