@@ -23,10 +23,22 @@
       "type": "integer",
       "description": "Frame Rate"
     },
+    "upload1": {
+      "type": "string",
+      "widget": "upload",
+      "upload_url": "https://litterbox.catbox.moe/resources/internals/api.php",
+      "property": "source_image_file"
+    },
     "source_image_file": {
       "type": "string",
       "description": "Source Image URL",
       "widget": "textarea"
+    },
+    "upload2": {
+      "type": "string",
+      "widget": "upload",
+      "upload_url": "https://litterbox.catbox.moe/resources/internals/api.php",
+      "property": "driving_video_file"
     },
     "driving_video_file": {
       "type": "string",
