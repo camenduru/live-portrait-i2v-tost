@@ -25,4 +25,4 @@ https://github.com/camenduru/LivePortrait-jupyter/assets/54370274/54251a79-b3d5-
 https://github.com/camenduru/LivePortrait-jupyter/assets/54370274/054945f3-6588-4b8b-a448-32eb53a21c1d
 
 ### 🏢 Sponsor
-https://runpod.io
+[https://runpod.io](https://runpod.io?ref=iqi9iy8y)
